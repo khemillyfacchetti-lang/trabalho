@@ -67,9 +67,13 @@ A adoção de uma metodologia de desenvolvimento iterativo com **testes de usabi
 ### Questão 8 [Técnicas Integradas] — Roteiro de Pitch de Crise (2 Minutos)[cite: 7]
 
 1. **Abertura:** "Senhores membros do Gabinete de Crise, atenção imediata: nossas redes de comunicação estão sob um ataque coordenado de extorsão em massa com clonagem sintética de voz por IA."[cite: 7]
+
 2. **Problema:** "Cibercriminosos estão simulando o tom de voz e a frequência de familiares e executivos para induzir pagamentos sob forte pressão psicológica e terror de falso sequestro."[cite: 7]
+
 3. **Dados:** "Analisamos uma base de 5.000 chamadas recentes, tratada com remoção de colunas sensíveis (`df.drop`) e normalização das frequências acústicas via escalonamento Min-Max."[cite: 1, 2, 7]
+
 4. **Solução e IA Utilizada:** "Desenvolvemos um modelo preditivo de classificação treinado para analisar micro-pausas e imperfeições espectrais em tempo real, distinguindo sintetizadores de voz de conexões humanas legítimas."[cite: 2, 5, 7]
+
 5. **Impacto e Próximos Passos:** "Nosso modelo opera atualmente com um $R^2$ de 0,94 e margem de erro (RMSE) inferior a 0,02[cite: 2, 6]. Recomendamos a suspensão temporária de transferências identificadas como 'suspeitas por IA' e a aplicação de protocolo de verificação em duas etapas com as famílias."[cite: 7]
 
 
