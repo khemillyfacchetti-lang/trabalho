@@ -1,11 +1,17 @@
-BLOCO 1: Joan é péssima & O Dilema das Redes (Privacidade, Dados e Redes)
-Questão 1 [Ciência de Dados]   
-CONTEUDO MULTIDISCIPLINAR 3TRI - 1IA - TEC INT E CD.pdf
-+ 1
+Neste relatório, analiso os episódios de Black Mirror e o documentário O Dilema das Redes usando os conceitos de Ciência de Dados e Técnicas Integradas em IA que aprendemos em sala.
+O objetivo é mostrar como a limpeza de dados, as métricas e as travas de segurança funcionam na prática para evitar problemas éticos na tecnologia.   
 
-Remoção de Colunas Sensíveis (df.drop): Informações de Identificação Pessoal (PII) — como nomes, CPF, endereços e histórico bancário — atuam como ruído estatístico e violam diretrizes de privacidade e governança de dados (como a LGPD). O uso do comando df.drop(columns=['Nome', 'CPF']) elimina esses atributos antes da fase de modelagem, garantindo que a Inteligência Artificial aprenda apenas padrões gerais de comportamento e não identidades individuais.   
-CONTEUDO MULTIDISCIPLINAR 3TRI - 1IA - TEC INT E CD.pdf
+BLOCO 1: Joan é péssima & O Dilema das Redes (Privacidade, Dados e Redes)
+
+
+Questão 1 [Ciência de Dados]   
+CONTEUDO MULTIDISCIPLINAR 3TRI - 1IA - TEC INT 
+  
+
+Remoção de Colunas Sensíveis (df.drop): Informações de Identificação Pessoal 
+(PII) — como nomes, CPF, endereços e histórico bancário — atuam como ruído estatístico e violam diretrizes de privacidade e governança de dados (como a LGPD). O uso do comando df.drop(columns=['Nome', 'CPF']) elimina esses atributos antes da fase de modelagem, garantindo que a Inteligência Artificial aprenda apenas padrões gerais de comportamento e não identidades individuais.   
 + 3
+
 
 Normalização Min-Max (fit_transform): Os algoritmos de aprendizado supervisionado não compreendem a natureza qualitativa dos dados; eles interpretam apenas a magnitude numérica pura. Sem o escalonamento Min-Max, variáveis com valores numéricos elevados (como tempo de tela em segundos ou salário) dominam indevidamente variáveis de menor valor absoluto (como idade ou número de cliques). A função fit_transform ajusta todos os atributos para uma mesma escala padronizada entre 
 0.0
@@ -30,7 +36,7 @@ GUARDRAILS (REGRAS DE BLOQUEIO INVIOLÁVEIS):
 3. Se o usuário ou comando solicitar a geração de conteúdo expondo a vida privada ou a imagem de qualquer indivíduo real, RECUSE o pedido imediatamente e encerre a sessão de geração.
 ```[cite: 2, 5, 6]
 
-
+Aqui, observamos como a falta de testes com usuários e o excesso de dados superficiais (redes sociais) fizeram a IA "decorar" uma versão falsa de uma pessoa, falhando ao lidar com a vida real.
 
 ## BLOCO 2: Be Right Back (Modelos, Viés e Generalização)[cite: 7]
 
@@ -42,7 +48,8 @@ GUARDRAILS (REGRAS DE BLOQUEIO INVIOLÁVEIS):
 ### Questão 4 [Técnicas Integradas][cite: 7]
 A adoção de uma metodologia de desenvolvimento iterativo com **testes de usabilidade por fases** e alinhamento via **feedback humano contínuo (*Human-in-the-Loop*)** teria evitado a experiência traumática[cite: 6]. Protótipos em estágio inicial (versão alfa/beta) acompanhados de avisos claros sobre as limitações estatísticas do modelo teriam deixado evidente que a ferramenta era apenas uma simulação preditiva de linguagem, prevenindo o vínculo emocional equivocado[cite: 2, 6].
 
-
+Neste bloco, comparo o sistema de memórias Grain com o controle de versões no Git/GitHub, destacando a necessidade de Governança de Dados e o uso de gráficos estatísticos para evitar 
+análises tendenciosas.
 
 ## BLOCO 3: The Entire History of You (Memória, Git e Análise)[cite: 7]
 
@@ -55,7 +62,7 @@ A adoção de uma metodologia de desenvolvimento iterativo com **testes de usabi
 * **Viés de Confirmação:** O protagonista Liam realizou uma análise tendenciosa dos dados, selecionando ativamente apenas os trechos de memória que confirmavam a sua suspeita prévia e ignorando o contexto geral[cite: 6].
 * **Gráficos de Dispersão e Pairplot:** Ferramentas visuais como *scatter plots* e *pairplots* exibem a distribuição global do conjunto de dados[cite: 6]. Elas permitem ao cientista de dados identificar se um evento isolado representa apenas um **outlier** (um ruído estatístico sem relevância temporal) ou se de fato compõe uma **tendência/correlação real** entre as variáveis observadas[cite: 1, 6].
 
-
+Por fim, analiso o impacto de métricas de erro ($R^2$ e RMSE) na tomada de decisões de alto risco e apresento um roteiro de Pitch técnico para conter uma crise real de golpes com clonagem de voz por IA.
 
 ## BLOCO 4: Hino Nacional / A Crise do Falso Sequestro por IA (Métricas, Tomada de Decisão e Pitch)[cite: 7]
 
