@@ -3,10 +3,7 @@ O objetivo é mostrar como a limpeza de dados, as métricas e as travas de segur
 
 BLOCO 1: Joan é péssima & O Dilema das Redes (Privacidade, Dados e Redes)
 
-
-Questão 1 [Ciência de Dados]   
-CONTEUDO MULTIDISCIPLINAR 3TRI - 1IA - TEC INT 
-  
+Questão 1 [Ciência de Dados]  
 
 Remoção de Colunas Sensíveis (df.drop): Informações de Identificação Pessoal 
 (PII) — como nomes, CPF, endereços e histórico bancário — atuam como ruído estatístico e violam diretrizes de privacidade e governança de dados (como a LGPD). O uso do comando df.drop(columns=['Nome', 'CPF']) elimina esses atributos antes da fase de modelagem, garantindo que a Inteligência Artificial aprenda apenas padrões gerais de comportamento e não identidades individuais.   
